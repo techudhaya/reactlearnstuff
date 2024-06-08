@@ -1,0 +1,51 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.addButton {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.todoList {
+  list-style: none;
+  padding: 0;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.deleteButton {
+  margin-left: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
