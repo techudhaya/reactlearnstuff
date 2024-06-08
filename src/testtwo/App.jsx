@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import '../testone/App.css'
-import Message from '../components/Message.jsx'
+import '../testtwo/App.css'
+import Todolist from '../components/Todolist.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <Message />
+    <>
+      <Todolist />
+    </>
   )
 }
 
