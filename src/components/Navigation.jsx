@@ -19,7 +19,6 @@ const Navigation = () => {
               <NavLink 
                 to={route.path} 
                 className="block p-4 bg-white rounded text-blue-500 hover:text-blue-700"
-                activeClassName="font-bold"
                 style={{ boxShadow: 'rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px' }}
               >
                 {route.name}
